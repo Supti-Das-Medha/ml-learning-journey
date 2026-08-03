@@ -40,7 +40,7 @@ My long-term goal is to build strong Machine Learning fundamentals, contribute t
 
 ## 🔹 Phase 1 – Python & NumPy Fundamentals
 
-### 🚀 Today's Progress (Day 1)
+### 🚀 Day 1 – NumPy Basics
 
 #### 📖 Topics Covered
 
