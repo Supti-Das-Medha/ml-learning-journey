@@ -216,7 +216,7 @@ Tomorrow I plan to learn:
 - NumPy Practice Problems
 
 ---
-## 🚀 Today's Progress (Day 2)
+### 🚀 Day 2 – NumPy Array Creation
 
 ### 📖 Topics Covered
 
