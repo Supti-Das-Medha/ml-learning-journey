@@ -32,7 +32,7 @@ My long-term goal is to build strong Machine Learning fundamentals, contribute t
 - Develop real-world Machine Learning projects.
 - Practice a professional Git & GitHub workflow.
 - Contribute to open-source organizations (e.g., Scikit-Learn).
-- Prepare for AI research and higher studies (MS/PhD).
+- Prepare for AI research and higher studies.
 
 ---
 
