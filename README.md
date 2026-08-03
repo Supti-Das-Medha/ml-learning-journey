@@ -393,6 +393,7 @@ I will update this repository regularly with new notebooks, projects, troublesho
 ml-learning-journey/
 │
 ├── 01_numpy_basics.ipynb
+├── 02_numpy_array_creation.ipynb
 ├── README.md
 └── (More notebooks will be added...)
 ```
