@@ -4,7 +4,7 @@ Welcome to my Machine Learning learning repository!
 
 This repository documents my journey of learning **Python, Data Science, Machine Learning, and Open Source Development**. It serves as both a **learning diary** and a **portfolio**, where I record my progress, challenges, solutions, and key concepts learned throughout the journey.
 
-My long-term goal is to build strong Machine Learning fundamentals, contribute to open-source projects, conduct AI research, and prepare for higher studies (MS/PhD).
+My long-term goal is to build strong Machine Learning fundamentals, contribute to open-source projects, conduct AI research, and prepare for higher studies.
 
 ---
 
@@ -216,13 +216,146 @@ Tomorrow I plan to learn:
 - NumPy Practice Problems
 
 ---
+## 🚀 Today's Progress (Day 2)
+
+### 📖 Topics Covered
+
+- Creating arrays with `np.zeros()`
+- Creating arrays with `np.ones()`
+- Generating sequences using `np.arange()`
+- Creating evenly spaced values using `np.linspace()`
+- Understanding array `shape`
+- Understanding element `dtype`
+- Displaying arrays in Jupyter Notebook
+
+#### 📂 File Added
+
+```text
+02_numpy_array_creation.ipynb
+```
+
+---
+
+## 📚 Concepts Learned
+
+Today I learned different ways to create NumPy arrays and explored their basic properties.
+
+- Creating arrays filled with zeros
+- Creating arrays filled with ones
+- Using `dtype=int` to create integer arrays
+- Generating consecutive values with `np.arange()`
+- Understanding that the `stop` value is **not included** in `np.arange()`
+- Generating evenly spaced values with `np.linspace()`
+- Understanding that both `start` and `stop` values are included in `np.linspace()`
+- Checking the shape of an array using `shape`
+- Checking the data type of array elements using `dtype`
+
+---
+
+## 💻 Python Commands Practiced
+
+```python
+import numpy as np
+
+np.zeros()
+np.ones()
+np.arange()
+np.linspace()
+
+arr.shape
+arr.dtype
+
+print(arr)
+```
+
+---
+
+## 🧠 New Terminologies Learned
+
+| Term | Meaning |
+|------|---------|
+| `zeros()` | Creates an array filled with zeros |
+| `ones()` | Creates an array filled with ones |
+| `arange()` | Generates a sequence of values within a range |
+| `linspace()` | Generates evenly spaced values |
+| `dtype` | Data type of the array elements |
+| `shape` | Dimensions of the array |
+
+---
+
+## 🛠️ Challenges Faced & Solutions (Troubleshooting Log)
+
+### 1️⃣ Understanding `(5,)` in `arr.shape`
+
+**Problem**
+
+I was confused about why the output was `(5,)` instead of just `5`.
+
+**Solution**
+
+Learned that `shape` always returns a **tuple**, and `(5,)` represents a one-dimensional array containing 5 elements.
+
+---
+
+### 2️⃣ Difference Between `arr` and `print(arr)`
+
+**Problem**
+
+I was unsure why Jupyter showed output when I wrote only `arr`.
+
+**Solution**
+
+Learned that Jupyter automatically displays the last expression in a cell, while `print(arr)` explicitly prints the array and is commonly used in Python scripts.
+
+---
+
+## ⚠️ Common Mistakes I Learned
+
+- Forgetting that `np.arange()` excludes the stop value.
+- Mixing the behavior of `arange()` and `linspace()`.
+- Confusing the data type of the array (`type(arr)`) with the data type of its elements (`arr.dtype`).
+- Misunderstanding the tuple format returned by `shape`.
+
+---
+
+## 💡 Key Takeaways
+
+- NumPy provides multiple ways to create arrays depending on the problem.
+- `arange()` is useful for generating sequences with a fixed step.
+- `linspace()` is useful when a fixed number of evenly spaced values is required.
+- Understanding `shape` and `dtype` is essential before working with machine learning datasets.
+- Writing clear comments improves code readability and documentation quality.
+
+---
+
+## 🎯 Learning Outcome
+
+After completing Day 2, I can confidently:
+
+- Create arrays using `zeros()`, `ones()`, `arange()`, and `linspace()`.
+- Explain the difference between `arange()` and `linspace()`.
+- Understand why `shape` returns a tuple.
+- Identify the data type of array elements.
+- Write cleaner and more professional NumPy code.
+
+---
+
+## 📅 Next Learning Goal
+
+Tomorrow I plan to learn:
+
+- Array Indexing
+- Array Slicing
+- Reshaping Arrays
+- Mathematical Functions
+- Random Module
 
 # 📈 Learning Progress
 
 | Day | Topic | Status |
 |-----|-------|--------|
 | Day 1 | NumPy Basics | ✅ Completed |
-| Day 2 | Indexing & Slicing | ⏳ Upcoming |
+| Day 2 | Indexing & Slicing | ✅ Completed |
 | Day 3 | Array Manipulation | ⏳ Upcoming |
 | Day 4 | Mathematical Functions | ⏳ Upcoming |
 | Day 5 | NumPy Practice Problems | ⏳ Upcoming |
