@@ -349,16 +349,191 @@ Tomorrow I plan to learn:
 - Reshaping Arrays
 - Mathematical Functions
 - Random Module
+---
+## 🚀 Today's Progress (Day 3)
+
+### 📖 Topics Covered
+
+- Array Indexing
+- Positive Indexing
+- Negative Indexing
+- Basic Slicing
+- Step Slicing
+- Reverse Slicing
+- 2D Arrays
+- 2D Array Indexing
+- 2D Array Slicing
+- Row Selection
+- Column Selection
+- Submatrix Selection
+
+---
+## 📂 File Updated
+
+```text
+## 📂 File Added
+
+```text
+Day 3 – NumPy Indexing, Slicing & Reshaping.ipynb
+```
+
+---
+
+## 📚 Concepts Learned
+
+Today I learned the following NumPy concepts:
+
+- Positive Indexing
+- Negative Indexing
+- Basic Slicing
+- Step Slicing
+- Reverse Slicing
+- Understanding the `start`, `stop`, and `step` parameters
+- Accessing rows in a 2D array
+- Accessing columns in a 2D array
+- Extracting submatrices
+- Practical applications of indexing and slicing in Machine Learning
+
+---
+
+## 💻 Python Commands Practiced
+
+```python
+arr[0]
+arr[-1]
+
+arr[1:4]
+arr[:3]
+arr[2:]
+arr[::2]
+arr[::-1]
+
+marks[0]
+marks[1]
+
+marks[:,0]
+marks[:,1]
+
+marks[0:2,0:2]
+```
+
+---
+
+## 🧠 New Terminologies Learned
+
+| Term | Meaning |
+|------|---------|
+| Index | Position of an element in an array |
+| Positive Index | Accessing elements from the beginning |
+| Negative Index | Accessing elements from the end |
+| Slice | Selecting multiple elements from an array |
+| Step | Number of positions skipped while slicing |
+| Row | Horizontal collection of values |
+| Column | Vertical collection of values |
+| Submatrix | A smaller section of a 2D array |
+
+---
+
+## 🛠️ Challenges Faced & Solutions
+
+### Understanding Slice Parameters
+
+**Problem**
+
+Initially, it was confusing how `start`, `stop`, and `step` work together while slicing an array.
+
+**Solution**
+
+Practiced multiple slicing examples and learned that:
+
+- The `start` index is included.
+- The `stop` index is excluded.
+- The `step` controls how elements are selected.
+- Negative steps reverse the traversal direction.
+
+---
+
+### Understanding 2D Array Indexing
+
+**Problem**
+
+Initially confused between selecting rows and columns.
+
+**Solution**
+
+Learned the standard NumPy syntax:
+
+```python
+array[row, column]
+```
+
+and understood that:
+
+```python
+marks[0]      # First row
+marks[:,0]    # First column
+```
+
+---
+
+## ⚠️ Common Mistakes I Learned
+
+- Forgetting that the stop index is excluded.
+- Mixing row indexing with column indexing.
+- Using an incorrect step direction while slicing.
+- Accessing elements outside the array bounds.
+- Forgetting to import NumPy after restarting the Jupyter kernel.
+
+---
+
+## 💡 Key Takeaways
+
+- Indexing retrieves a single element.
+- Slicing retrieves multiple elements.
+- Step slicing makes data sampling easier.
+- Reverse slicing can reverse an array efficiently.
+- Most Machine Learning datasets are represented as 2D arrays.
+- Understanding rows and columns is essential for data preprocessing.
+
+---
+
+## 🎯 Learning Outcome
+
+After completing Day 3, I can confidently:
+
+- Access elements using positive and negative indexing.
+- Extract subsets of arrays using slicing.
+- Use step slicing for sampling and reversing arrays.
+- Work with 2D NumPy arrays.
+- Select rows, columns, and submatrices.
+- Understand how indexing and slicing are used in Machine Learning.
+
+---
+
+## 📅 Next Learning Goal
+
+Tomorrow I plan to learn:
+
+- NumPy Mathematical Functions
+- Aggregation Functions
+- Statistical Functions
+- Random Module
+- Practical Machine Learning Examples
+
+---
 
 # 📈 Learning Progress
 
-| Day | Topic | Status |
-|-----|-------|--------|
-| Day 1 | NumPy Basics | ✅ Completed |
-| Day 2 | Indexing & Slicing | ✅ Completed |
-| Day 3 | Array Manipulation | ⏳ Upcoming |
-| Day 4 | Mathematical Functions | ⏳ Upcoming |
-| Day 5 | NumPy Practice Problems | ⏳ Upcoming |
+# 📈 Learning Progress
+
+| Day   | Topic                                | Status       |
+| ------| ------------------------------------ | ------------ |
+| Day 1 | NumPy Basics                         | ✅ Completed |
+| Day 2 | Array Creation & Properties          | ✅ Completed |
+| Day 3 | NumPy Indexing & Slicing             | ✅ Completed |
+| Day 4 | NumPy Mathematical Functions         | ⏳ Upcoming  |
+| Day 5 | NumPy Array Manipulation & Reshaping | ⏳ Upcoming  |
+| Day 6 | NumPy Practice Problems              | ⏳ Upcoming  |
 
 ---
 
