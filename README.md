@@ -564,9 +564,11 @@ I will update this repository regularly with new notebooks, projects, troublesho
 ml-learning-journey/
 │
 ├── 01_numpy_basics.ipynb
-├── 02_numpy_array_creation.ipynb
+├── 02_array_creation_properties.ipynb
+├── Day 3 – NumPy Indexing, Slicing & Reshaping.ipynb
 ├── README.md
 └── (More notebooks will be added...)
+
 ```
 
 ---
