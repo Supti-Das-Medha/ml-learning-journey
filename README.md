@@ -368,9 +368,6 @@ Tomorrow I plan to learn:
 - Submatrix Selection
 
 ---
-## 📂 File Updated
-
-```text
 ## 📂 File Added
 
 ```text
@@ -524,7 +521,6 @@ Tomorrow I plan to learn:
 
 # 📈 Learning Progress
 
-# 📈 Learning Progress
 
 | Day   | Topic                                | Status       |
 | ------| ------------------------------------ | ------------ |
