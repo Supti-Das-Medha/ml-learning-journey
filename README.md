@@ -518,6 +518,163 @@ Tomorrow I plan to learn:
 - Practical Machine Learning Examples
 
 ---
+---
+
+# 🚀 Today's Progress (Day 4)
+
+## 📖 Topics Covered
+
+- Statistical Functions
+  - `np.sum()`
+  - `np.mean()`
+  - `np.min()`
+  - `np.max()`
+  - `np.median()`
+  - `np.std()`
+  - `np.var()`
+- Mathematical Functions
+  - `np.sqrt()`
+  - `np.power()`
+  - `np.abs()`
+- Rounding Functions
+  - `np.round()`
+  - `np.ceil()`
+  - `np.floor()`
+- Axis Operations
+  - `axis=0`
+  - `axis=1`
+- Real Machine Learning Examples
+- Mixed Practice Challenge
+- Common Mistakes
+- Interview & Viva Questions
+
+---
+
+## 📂 File Added
+
+```text
+Day 4 – NumPy Statistical & Mathematical Functions.ipynb
+```
+
+---
+
+## 📚 Concepts Learned
+
+Today I learned:
+
+- How to calculate the sum of array elements.
+- How to find the average using `np.mean()`.
+- How to determine the minimum and maximum values.
+- How to calculate the median of a dataset.
+- How to measure data spread using standard deviation and variance.
+- The relationship between variance and standard deviation.
+- How to calculate square roots using `np.sqrt()`.
+- How to square numbers using `np.power()`.
+- How to calculate absolute values using `np.abs()`.
+- How to round numbers using `np.round()`.
+- The difference between `np.ceil()` and `np.floor()`.
+- How to perform column-wise operations using `axis=0`.
+- How to perform row-wise operations using `axis=1`.
+- How these functions are applied in real Machine Learning tasks.
+
+---
+
+## 💻 Python Commands Practiced
+
+```python
+np.sum()
+np.mean()
+np.min()
+np.max()
+np.median()
+np.std()
+np.var()
+np.sqrt()
+np.power()
+np.abs()
+np.round()
+np.ceil()
+np.floor()
+
+np.sum(axis=0)
+np.sum(axis=1)
+
+np.mean(axis=0)
+np.mean(axis=1)
+```
+
+---
+
+## 🧠 New Terminologies Learned
+
+| Term | Meaning |
+|------|---------|
+| Mean | Average value of data |
+| Median | Middle value after sorting |
+| Standard Deviation | Measures data spread |
+| Variance | Average squared deviation from the mean |
+| Square Root | Mathematical inverse of squaring |
+| Absolute Value | Distance from zero |
+| Ceiling | Always rounds upward |
+| Floor | Always rounds downward |
+| Axis | Direction of an operation in an array |
+
+---
+
+## ⚠️ Common Mistakes I Learned
+
+- Forgetting to import NumPy before using `np`.
+- Confusing `axis=0` with `axis=1`.
+- Using Python functions instead of NumPy functions.
+- Mixing up Mean and Median.
+- Assuming `np.round()` always rounds upward.
+- Forgetting to specify decimal places in `np.round()`.
+- Confusing Variance with Standard Deviation.
+
+---
+
+## 💡 Key Takeaways
+
+- NumPy provides powerful statistical functions for data analysis.
+- Standard deviation measures the spread of data.
+- Variance is the square of the standard deviation.
+- Axis operations simplify row-wise and column-wise calculations.
+- Mathematical functions are widely used in Machine Learning and Data Science.
+- Writing clean, commented code improves readability and maintainability.
+
+---
+
+## 🎯 Learning Outcome
+
+After completing Day 4, I can confidently:
+
+- Perform statistical analysis using NumPy.
+- Use mathematical functions for numerical computation.
+- Apply rounding functions correctly.
+- Perform row-wise and column-wise calculations using axis.
+- Understand data distribution through variance and standard deviation.
+- Apply NumPy functions in Machine Learning scenarios.
+- Explain NumPy concepts confidently in interviews and viva examinations.
+
+---
+
+## 📅 Next Learning Goal
+
+Tomorrow I plan to learn:
+
+- Random Module (`np.random`)
+- Random Integers
+- Random Floating-Point Numbers
+- Random Seed
+- Array Reshaping
+- Flattening Arrays
+- Practice Problems
+
+---
+## 🌟 Day 4 Reflection
+
+> **"Today I strengthened my understanding of NumPy by learning statistical analysis, mathematical operations, rounding techniques, and axis-based computations. These concepts form an essential foundation for Machine Learning, Data Analysis, and AI research."**
+---
 
 # 📈 Learning Progress
 
@@ -527,7 +684,7 @@ Tomorrow I plan to learn:
 | Day 1 | NumPy Basics                         | ✅ Completed |
 | Day 2 | Array Creation & Properties          | ✅ Completed |
 | Day 3 | NumPy Indexing & Slicing             | ✅ Completed |
-| Day 4 | NumPy Mathematical Functions         | ⏳ Upcoming  |
+| Day 4 | NumPy Mathematical Functions         | ✅ Completed |
 | Day 5 | NumPy Array Manipulation & Reshaping | ⏳ Upcoming  |
 | Day 6 | NumPy Practice Problems              | ⏳ Upcoming  |
 
@@ -566,6 +723,7 @@ ml-learning-journey/
 ├── 01_numpy_basics.ipynb
 ├── 02_array_creation_properties.ipynb
 ├── Day 3 – NumPy Indexing, Slicing & Reshaping.ipynb
+├── Day 4 – NumPy Statistical & Mathematical Functions.ipynb
 ├── README.md
 └── (More notebooks will be added...)
 
