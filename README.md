@@ -724,6 +724,7 @@ Today I learned:
 ## 💻 Python Commands Practiced
 
 ```python
+
 np.random.rand()
 
 np.random.rand(3,3)
