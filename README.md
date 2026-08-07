@@ -675,18 +675,238 @@ Tomorrow I plan to learn:
 
 > **"Today I strengthened my understanding of NumPy by learning statistical analysis, mathematical operations, rounding techniques, and axis-based computations. These concepts form an essential foundation for Machine Learning, Data Analysis, and AI research."**
 ---
+# 🚀 Today's Progress (Day 5)
+
+## 📖 Topics Covered
+
+- Random Functions
+  - `np.random.rand()`
+  - `np.random.randint()`
+  - `np.random.seed()`
+- Array Reshaping
+  - `reshape()`
+  - `reshape(-1)`
+- Array Flattening
+  - `flatten()`
+- Random Data Generation
+- Array Transformation
+- Practice Problems
+- Common Mistakes
+- Interview & Viva Questions
+
+---
+
+## 📂 File Added
+
+```text
+Day 5 – NumPy Random Functions & Reshaping.ipynb
+```
+
+---
+
+## 📚 Concepts Learned
+
+Today I learned:
+
+- How to generate random decimal numbers using `np.random.rand()`.
+- How to generate random integers using `np.random.randint()`.
+- How to control randomness using `np.random.seed()`.
+- Why `np.random.seed()` is important for reproducible experiments.
+- How to reshape arrays into different dimensions using `reshape()`.
+- How to use `reshape(-1)` for automatic dimension calculation.
+- How to convert multi-dimensional arrays into one-dimensional arrays.
+- How to flatten arrays using `flatten()`.
+- The difference between `flatten()` and `reshape(-1)`.
+- How these concepts are used in Machine Learning and Data Preprocessing.
+
+---
+
+## 💻 Python Commands Practiced
+
+```python
+np.random.rand()
+
+np.random.rand(3,3)
+
+np.random.randint()
+
+np.random.randint(1,10)
+
+np.random.randint(1,10,(3,3))
+
+np.random.seed()
+
+np.random.seed(42)
+
+array.reshape(3,4)
+
+array.reshape(4,3)
+
+array.reshape(-1)
+
+array.reshape(3,-1)
+
+array.reshape(-1,4)
+
+array.flatten()
+```
+
+---
+
+## 🧠 New Terminologies Learned
+
+| Term | Meaning |
+|------|---------|
+| Random Number | A value generated without a fixed pattern |
+| Random Seed | A value used to reproduce the same random output |
+| Reproducibility | Producing the same results every time using the same seed |
+| Reshape | Changing the dimensions of an array |
+| Flatten | Converting a multi-dimensional array into a 1D array |
+| Shape | The dimensions of an array |
+| View | Shares memory with the original array |
+| Copy | Creates an independent array in memory |
+
+---
+
+## ⚠️ Common Mistakes I Learned
+
+- Forgetting to set a random seed before generating random numbers.
+- Using the same value for `low` and `high` in `np.random.randint()`, which causes a `ValueError`.
+- Trying to reshape an array into an incompatible shape.
+- Forgetting that the total number of elements must remain the same during reshaping.
+- Misspelling `reshape()` as `rehsape()`.
+- Confusing `flatten()` with `reshape(-1)`.
+
+---
+
+## 💡 Problems I Faced & How I Solved Them
+
+### Problem 1 — Incorrect use of `np.random.randint()`
+
+**Mistake**
+
+```python
+np.random.randint(3,3)
+```
+
+**Error**
+
+```
+ValueError: low >= high
+```
+
+**Solution**
+
+I learned that the `low` value must always be smaller than the `high` value.
+
+Correct example:
+
+```python
+np.random.randint(1,10,(3,3))
+```
+
+---
+
+### Problem 2 — Reshape Error
+
+**Mistake**
+
+Trying to reshape an array containing only 5 elements into a `(3,4)` matrix.
+
+**Error**
+
+```
+ValueError: cannot reshape array of size 5 into shape (3,4)
+```
+
+**Solution**
+
+I learned that the total number of elements must remain the same before and after reshaping.
+
+---
+
+### Problem 3 — Typing Mistake
+
+**Mistake**
+
+```python
+matrix.rehsape(-1)
+```
+
+**Error**
+
+```
+AttributeError
+```
+
+**Solution**
+
+The correct function name is:
+
+```python
+matrix.reshape(-1)
+```
+
+---
+
+## 💡 Key Takeaways
+
+- NumPy makes it easy to generate random data for Machine Learning experiments.
+- `np.random.seed()` ensures reproducible results.
+- `reshape()` changes the dimensions of an array without changing its data.
+- `reshape(-1)` automatically calculates the missing dimension.
+- `flatten()` converts a multi-dimensional array into a one-dimensional array.
+- Understanding array shapes is essential for Machine Learning and Data Preprocessing.
+
+---
+
+## 🎯 Learning Outcome
+
+After completing Day 5, I can confidently:
+
+- Generate random decimal and integer values.
+- Create reproducible random outputs using `np.random.seed()`.
+- Reshape arrays into different dimensions.
+- Convert multi-dimensional arrays into one-dimensional arrays.
+- Understand the difference between `flatten()` and `reshape(-1)`.
+- Identify and solve common reshaping errors.
+- Apply NumPy reshaping techniques in Machine Learning tasks.
+
+---
+
+## 📅 Next Learning Goal
+
+Tomorrow I plan to learn:
+
+- `ravel()`
+- Difference between `flatten()` and `ravel()`
+- `transpose()`
+- `concatenate()`
+- `vstack()`
+- `hstack()`
+- Real Machine Learning Examples
+- Practice Problems
+- Interview & Viva Questions
+
+---
+
+## 🌟 Day 5 Reflection
+
+> **"Today I learned how to generate random data, control randomness using random seeds, reshape arrays into different dimensions, and convert multi-dimensional arrays into one-dimensional arrays. These concepts are fundamental for data preprocessing, feature engineering, and building reliable Machine Learning models."**
+
+---
 
 # 📈 Learning Progress
 
-
-| Day   | Topic                                | Status       |
-| ------| ------------------------------------ | ------------ |
-| Day 1 | NumPy Basics                         | ✅ Completed |
-| Day 2 | Array Creation & Properties          | ✅ Completed |
-| Day 3 | NumPy Indexing & Slicing             | ✅ Completed |
-| Day 4 | NumPy Mathematical Functions         | ✅ Completed |
-| Day 5 | NumPy Array Manipulation & Reshaping | ⏳ Upcoming  |
-| Day 6 | NumPy Practice Problems              | ⏳ Upcoming  |
+| Day | Topic | Status |
+|------|-----------------------------------------------|----------------|
+| Day 1 | NumPy Basics | ✅ Completed |
+| Day 2 | Array Creation & Properties | ✅ Completed |
+| Day 3 | NumPy Indexing, Slicing & Reshaping | ✅ Completed |
+| Day 4 | NumPy Statistical & Mathematical Functions | ✅ Completed |
+| Day 5 | NumPy Random Functions & Array Reshaping | ✅ Completed |
+| Day 6 | Advanced Array Manipulation (`ravel()`, `transpose()`, `concatenate()`, `vstack()`, `hstack()`) | ⏳ Upcoming |
+| Day 7 | Real Machine Learning Examples, Practice Problems & Interview Questions | ⏳ Upcoming |
 
 ---
 
@@ -724,6 +944,7 @@ ml-learning-journey/
 ├── 02_array_creation_properties.ipynb
 ├── Day 3 – NumPy Indexing, Slicing & Reshaping.ipynb
 ├── Day 4 – NumPy Statistical & Mathematical Functions.ipynb
+├── Day 5 – NumPy Random Functions & Reshaping.ipynb
 ├── README.md
 └── (More notebooks will be added...)
 
